@@ -233,7 +233,7 @@ footer{
 .account{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 1.6rem;
     align-items: center;
 }
 .account>h2{
