@@ -223,11 +223,11 @@ footer{
     justify-content: space-around;
     display: flex;
     /* flex-direction: column; */
-    flex-wrap: wrap;
-    font-size: larger;
+    /* flex-wrap: wrap; */
+    font-size: normal;
     background-color: aquamarine;
     height: 15rem;
-    margin: 0 auto;  
+    margin: 0 auto;   
 
 }
 .account{
