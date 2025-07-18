@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeevanantham</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="queries.css">
+    
+</head>
+<body>
+
+          <!----------------------- this is header container -------------------------------->
+    <header class="head">
+    <h1 class="name">Jeevanantham</h1>
+   
+    <nav class="nav">
+      <ul>
+        <li><a href="#main" class="menu-items">About</a></li>
+        <li><a href="#skill" class="menu-items">Skill</a></li>
+        <li><a href="#projects" class="menu-items">Project</a></li>
+        <li><a href="#contact" class="menu-items">Contact</a></li>
+      </ul>
+
+    </nav>
+    <img src="./asset/hamburger-menu-more-svgrepo-com.svg" onclick="menuAction()" class="micon" alt="">
+     <div class="menu-bar">
+      
+      <ul>
+        <li><a href="#main" class="menu-items">About</a></li>
+        <li><a href="#skill" class="menu-items">Skills</a></li>
+        <li><a href="#projects" class="menu-items">Project</a></li>
+        <li><a href="#contact" class="menu-items">Contact</a></li>
+      </ul></div>
+   </header>
+
+    <main>
+        <!----------------------- this is about container -------------------------------->
+        <div class="about" id="main"> 
+            <div class="img">
+            <img id="img" 
+            src="./asset/proimg.png" alt="profile">
+           </div>      
+  <div class="about-content">
+    
+    <h3> Hello! I'm Jeevanantham A</h3>
+    <p class="degree">B.Tech Information Technology</p>
+    <p class="intro">
+      I'm passionate about building responsive and user-friendly web applications.
+      Skilled in front-end technologies like HTML, CSS, JavaScript, and backend
+      logic using Java, Sql and Python.
+    </p>
+    <p class="highlight">Let's build something great together!</p>
+    <a href="./asset/Jeevanantham_Resume.pdf" download class="Resume-button">Resume</a>
+</div>
+</div>
+
+<!----------------------- this a skills container -------------------------------->
+<div class="container3">
+        <h1>MY SKILLS</h1>
+         <div class="skills" id="skill">
+             
+    <div class="skill"><img src="./asset/html.jpg" class="sp" alt="html">
+    </div>
+    <div class="skill" ><img src="./asset/css.png"  alt="css" class="sp"></div>
+    <div class="skill"><img src="./asset/js2.png" alt="Javascript" class="sp"></div>
+    <div class="skill"><img src="./asset/java.png" class="sp" alt="Java"></div>
+    <div class="skill"><img src="./asset/sql.png" alt="Sql" class="sp"></div>
+    <div class="skill"><img src="./asset/python.jpg" alt="Python" class="sp"></div>
+  
+        </div>
+
+       </div>
+       
+       <!-- ----------------------project container -->
+       <div class="container4" id="projects">
+        <h1>PROJECTS</h1>
+  <div class="project-grid">
+    <div class="project-card"><abbr title="fake news detection"><img src="./asset/fnd.jpg" alt="fakenews" class="sp"></abbr></div>
+    <div class="project-card"><abbr title="Job portal "><img src="./asset/JOBPORTAL.png" alt="job protal" class="sp"></abbr></div>
+    <div class="project-card"><abbr title="weather Application"><img src="./asset/weathers.jpg" alt="weather application" class="sp"></abbr></div>
+    <!-- <div class="project-card">Project 4</div> -->
+  </div>
+       </div>
+
+    </main>
+
+    <!-- ---------------------footer ----------------------------->
+    <footer id="contact">
+    
+      <div><h1>&copy;2025  Jeevanantham    </h1>
+    
+    <h2>    Contact :+91 882 559 4737 </h2>
+      <h2>Email :<a  class="Email" href="mailto:jeevanantham.a.17@gmail.com" >jeevanantham.a.17@gmail.com</a>
+    </h2></div>
+    <div class="account">
+      <h2> <img src="./asset/github.png" alt="github"><a class="Email" href="#" onclick="location.href='https://github.com/jeevacodemaster'">Github</a></h2>
+    <h2><img src="./asset/linkedin.png" alt="github"><a class="Email"  href="#" onclick="location.href='https://www.linkedin.com/in/jeevanantham-a-'">Linkedin</a></h2></div>
+<div></h2></div>
+</footer >
+   <script>
+    var hide = document.getElementsByClassName("menu-bar");
+    function menuAction(){
+     const menu = document.querySelector(".menu-bar");
+    menu.classList.toggle("show");
+    }
+   </script>
+</body>
+</html>
